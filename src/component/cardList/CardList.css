@@ -1,0 +1,15 @@
+.cardList{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-gap: 20px;
+}
+
+.cardContainer{
+  background: rgb(136, 250, 187);
+  width: 300px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.cardContainer img{
+  width: 150px;
+}
